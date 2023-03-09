@@ -17,6 +17,8 @@ export const App = () => {
   useEffect(() => {
     dispatch(getContacts());
   }, [dispatch]);
+  
+  
 
   return (
     <>
